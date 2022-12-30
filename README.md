@@ -8,7 +8,7 @@ To use this action, add the following step to your GitHub Action workflow:
 - uses: codingprotocols/kubectl@master
   with:
     version: v1.25.5
-- run: kubectl version
+- run: kubectl get pods
 ```
 
 ## Authors
