@@ -1,0 +1,19 @@
+name: kubectl cli
+description: GitHub Action to manage a kubernetes cluster
+author: Coding Protocols <support@codingprotocols.com>
+branding:
+  icon: terminal
+  color: blue
+inputs:
+  version:
+    description: Version of the kubectl CLI to use
+    required: false
+    default: latest
+runs:
+  using: composite
+  steps:
+  - name: Configure kubectl CLI
+    run: setup.sh
+    shell: bash
+    env:
+      VERSION: ${{ inputs.version }}
