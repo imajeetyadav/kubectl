@@ -1,4 +1,4 @@
-name: kubectl cli
+name: kubectl CLI
 description: GitHub Action to manage a kubernetes cluster
 author: Coding Protocols <support@codingprotocols.com>
 branding:
