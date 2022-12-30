@@ -10,3 +10,7 @@ To use this action, add the following step to your GitHub Action workflow:
     version: v1.25.5
 - run: kubectl version
 ```
+
+## Authors
+
+Created and maintained by [Ajeet Yadav](https://github.com/imAjeetYadav)
