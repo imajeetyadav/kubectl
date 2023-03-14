@@ -1,6 +1,6 @@
 name: kubectl CLI
 description: GitHub Action to manage a kubernetes cluster
-author: Coding Protocols <support@codingprotocols.com>
+author: Ajeet Yadav <ajeetyadav164@gmail.com>
 branding:
   icon: terminal
   color: blue
